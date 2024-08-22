@@ -22,7 +22,7 @@ export default function Accordian () {
 
     return (
         <div className="wrapper">
-            <button onClick={ () => setMultiSelection( !multiSelection ) }>Enable Multi selection</button>
+            <button onClick={ () => setMultiSelection( !multiSelection ) }>Enable Multi Selection</button>
             <div className="accordian">
                 {
                     data && data.length > 0 ?

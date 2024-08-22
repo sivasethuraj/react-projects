@@ -15,8 +15,8 @@ body {
 
 .wrapper button {
     padding: .7em 1em;
-    background: #614101;
-    color: #fff;
+    background: lightcoral;
+    color: #000;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
@@ -42,6 +42,11 @@ body {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+.item-title span {
+    font-size: 2rem;
+    color: yellow;
 }
 
 .item:hover {
