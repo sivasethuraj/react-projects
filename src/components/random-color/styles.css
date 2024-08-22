@@ -1,0 +1,41 @@
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    font-size: 1rem;
+    padding: .5em 1em;
+    background: skyblue;
+    color: #000;
+    font-weight: bold;
+    border-radius: .4em;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: none;
+}
+
+.display {
+    width: 30rem;
+    height: 20rem;
+    background: transparent;
+    box-shadow: .1em .1em .5em .1em #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.display-value {
+    font-size: 3rem;
+    padding: .3em;
+    cursor: pointer;
+    background: #000;
+    color: aliceblue;
+    border-radius: .3em;
+    box-shadow: .1em .1em .5em .1em #01f9ed;
+}
