@@ -5,7 +5,7 @@ const RandomColor = () => {
 
     const [ mode, setMode ] = useState( 'hex' );
     const [ color, setColor ] = useState( '#000000' );
-    const [ copied, setCopied ] = useState( false );
+    // const [ copied, setCopied ] = useState( false );
 
     const CSS = {
         width: "100vw",
@@ -58,7 +58,7 @@ const RandomColor = () => {
                 <button onClick={ () => createRandomcolor() }>Generate Random Color</button>
             </div>
             <div className="display">
-                <div className="display-value">
+                <div className="display-value" style={ { color: color } }>
                     { color }
                 </div>
             </div>
