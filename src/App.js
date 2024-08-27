@@ -7,8 +7,8 @@ import './App.css';
 // import TreeView from './components/tree-view'
 // import menus from './components/tree-view/data'
 // import QrCodeGenerator from './components/qr-code-generator';
-import LightDarkMode from './components/light-dark-mode';
-
+// import LightDarkMode from './components/light-dark-mode';
+import ScrollIndicator from './components/scroll-indicator';
 function App () {
   return (
     <div className="App">
@@ -19,7 +19,8 @@ function App () {
       {/* <LoadMoreData /> */ }
       {/* <TreeView menus={ menus } /> */ }
       {/* <QrCodeGenerator /> */ }
-      <LightDarkMode />
+      {/* <LightDarkMode /> */ }
+      <ScrollIndicator />
     </div>
   );
 }
