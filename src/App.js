@@ -9,7 +9,9 @@ import './App.css';
 // import QrCodeGenerator from './components/qr-code-generator';
 // import LightDarkMode from './components/light-dark-mode';
 // import ScrollIndicator from './components/scroll-indicator';
-import TabTest from './components/custom-tabs/tab-test';
+// import TabTest from './components/custom-tabs/tab-test';
+import ModalTest from './components/custom-modal/modal-test'
+
 function App () {
   return (
     <div className="App">
@@ -22,7 +24,8 @@ function App () {
       {/* <QrCodeGenerator /> */ }
       {/* <LightDarkMode /> */ }
       {/* <ScrollIndicator /> */ }
-      <TabTest />
+      {/* <TabTest /> */ }
+      <ModalTest />
     </div>
   );
 }
