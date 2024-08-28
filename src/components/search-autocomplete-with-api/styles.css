@@ -1,0 +1,41 @@
+.search-autocomplete-container {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.autocomplete-input-box {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #4c4c4c;
+    margin: 1em auto;
+    padding: .4em .8em;
+    width: 40%;
+    border-radius: .4rem;
+    outline: none;
+}
+
+.suggestion-item {
+    font-size: 1.2rem;
+    list-style-type: none;
+    background: lightcoral;
+    margin: .3em auto;
+    padding: .4em .8em;
+    width: 15rem;
+    color: #000;
+    border-radius: .6rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.suggestion-item::before {
+    content: '';
+    position: absolute;
+    left: -1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+    background: lightcoral;
+    height: .3em;
+    margin-right: .2em;
+}
