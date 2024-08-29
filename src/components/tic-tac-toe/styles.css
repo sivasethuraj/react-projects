@@ -1,0 +1,49 @@
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background: #b1b1b1;
+    padding: 1em 2em;
+    margin: 0 auto;
+    box-shadow: 0 0 2em .1em#c1c1c1;
+
+}
+
+.tic-tac-toe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.square {
+    border: 1px solid red;
+    float: left;
+    font-size: 2.5rem;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.restart {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .5em 1em;
+    background-color: transparent;
+    color: red;
+    border: .2em solid red;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.restart:hover {
+    background: red;
+    color: antiquewhite;
+}
