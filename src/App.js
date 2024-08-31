@@ -18,8 +18,9 @@ import './App.css';
 // import FeatureFlagGlobalState from './components/feature-flag/context';
 // import UseFetchHookTest from './components/use-fetch/testUseFetch'
 // import TestUseOutsideClick from './components/use-outside-click/test'
-import ScrolltoTopAndBottom from './components/scroll-to-top-and-bottom'
-import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section'
+// import ScrolltoTopAndBottom from './components/scroll-to-top-and-bottom'
+// import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section'
+import WeatherApp from './projects/wether-app/WeatherApp';
 
 function App () {
   return (
@@ -44,8 +45,9 @@ function App () {
       {/* <UseFetchHookTest />
       <TestUseOutsideClick />
       <UseWindowResizetest /> */}
-      <ScrolltoTopAndBottom />
-      <ScrollToSection />
+      {/* <ScrolltoTopAndBottom />
+      <ScrollToSection /> */}
+      <WeatherApp />
     </div>
   );
 }
