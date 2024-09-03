@@ -20,7 +20,9 @@ import './App.css';
 // import TestUseOutsideClick from './components/use-outside-click/test'
 // import ScrolltoTopAndBottom from './components/scroll-to-top-and-bottom'
 // import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section'
-import WeatherApp from './projects/wether-app/WeatherApp';
+// import WeatherApp from './projects/wether-app/WeatherApp';
+import RecipeApp from './projects/2.RECIPE-APP/RecipeApp';
+import GlobalState from './projects/2.RECIPE-APP/context';
 
 function App () {
   return (
@@ -47,7 +49,10 @@ function App () {
       <UseWindowResizetest /> */}
       {/* <ScrolltoTopAndBottom />
       <ScrollToSection /> */}
-      <WeatherApp />
+      {/* <WeatherApp /> */ }
+      <GlobalState>
+        <RecipeApp />
+      </GlobalState>
     </div>
   );
 }
