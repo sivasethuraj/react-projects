@@ -1,4 +1,5 @@
 import './App.css';
+import ExpenseTracker from './projects/4.EXPENSE-TRACKER/ExpenseTracker';
 // import Accordian from './components/accordian';
 // import RandomColor from './components/random-color';
 // import StarRating from './components/star-rating';
@@ -21,8 +22,9 @@ import './App.css';
 // import ScrolltoTopAndBottom from './components/scroll-to-top-and-bottom'
 // import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section'
 // import WeatherApp from './projects/wether-app/WeatherApp';
-import RecipeApp from './projects/2.RECIPE-APP/RecipeApp';
-import GlobalState from './projects/2.RECIPE-APP/context';
+// import RecipeApp from './projects/2.RECIPE-APP/RecipeApp';
+// import GlobalState from './projects/2.RECIPE-APP/context';
+// import ShoppingCart from './projects/3.SHOPPING-CART/ShoppingCart';
 
 function App () {
   return (
@@ -50,9 +52,11 @@ function App () {
       {/* <ScrolltoTopAndBottom />
       <ScrollToSection /> */}
       {/* <WeatherApp /> */ }
-      <GlobalState>
-        <RecipeApp />
-      </GlobalState>
+      {/* <GlobalState> */ }
+      {/* <RecipeApp /> */ }
+      {/* </GlobalState> */ }
+      {/* <ShoppingCart /> */ }
+      <ExpenseTracker />
     </div>
   );
 }
